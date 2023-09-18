@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hover_effect/01_glass_hover/glass_hover_effect.dart';
+import 'package:hover_effect/02_github_card/github_card.dart';
 
 void main() {
   runApp(const MainApp());
@@ -24,6 +25,10 @@ class _MainAppState extends State<MainApp> with SingleTickerProviderStateMixin {
       title: "Glass Hover Effect",
       navigation: GlassHoverEffect.navigate,
     ),
+    EffectDemo(
+      title: "GitHub Card Hover Effect",
+      navigation: GitHubCard.navigate,
+    )
   ];
 
   @override
