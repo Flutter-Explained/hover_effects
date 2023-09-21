@@ -6,6 +6,7 @@ In this repository I collect all cool hover effects that I will create tutorials
 
 Checkout my Video Tutorials here
 [Flutter Animations - Create a card hover effect](https://youtu.be/R7zIj84X4Bk)
+[Recreate the GitHub Card in Flutter - CSS to Flutter Challange](https://youtu.be/0Q4KlANDDL8)
 
 ## Blog Posts
 

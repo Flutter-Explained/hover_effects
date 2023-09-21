@@ -57,9 +57,7 @@ class _GlassHoverEffectState extends State<GlassHoverEffect>
                     decoration: const BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(25)),
                       image: DecorationImage(
-                        image: NetworkImage(
-                          "https://github.com/Flutter-Explained/hover_effects/blob/main/assets/isfahan.jpg",
-                        ),
+                        image: AssetImage("assets/isfahan.jpg"),
                         fit: BoxFit.cover,
                       ),
                     ),
