@@ -9,8 +9,7 @@ class LinkButton extends StatefulWidget {
   State<LinkButton> createState() => _LinkButtonState();
 }
 
-class _LinkButtonState extends State<LinkButton>
-    with SingleTickerProviderStateMixin {
+class _LinkButtonState extends State<LinkButton> {
   var isHovered = false;
 
   @override
