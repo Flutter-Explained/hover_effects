@@ -46,7 +46,9 @@ class _GlassHoverEffectState extends State<GlassHoverEffect>
         child: MouseRegion(
           onEnter: (event) => _controller.forward(),
           onExit: (event) => _controller.reverse(),
-          child: SizedBox(
+          child: ClipRect(
+            clipBehavior: Clip.hardEdge,
+            child: SizedBox(
               height: 420,
               width: 320,
               child: Stack(
@@ -130,6 +132,7 @@ class _GlassHoverEffectState extends State<GlassHoverEffect>
                 ],
               ),
             ),
+          ),
         ),
       ),
     );
