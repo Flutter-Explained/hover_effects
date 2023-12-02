@@ -46,7 +46,7 @@ class _GlassHoverEffectState extends State<GlassHoverEffect>
         child: MouseRegion(
           onEnter: (event) => _controller.forward(),
           onExit: (event) => _controller.reverse(),
-          child: ClipRRect(
+          child: ClipRect(
             clipBehavior: Clip.hardEdge,
             child: SizedBox(
               height: 420,
@@ -66,6 +66,7 @@ class _GlassHoverEffectState extends State<GlassHoverEffect>
                     position: _animation,
                     child: ClipRRect(
                       clipBehavior: Clip.hardEdge,
+                      borderRadius: const BorderRadius.all(Radius.circular(25)),
                       child: BackdropFilter(
                         filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
                         child: Padding(
